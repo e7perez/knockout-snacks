@@ -220,6 +220,7 @@
         height: 60px;
         border: 0px;
         border: 2px solid black;
+        z-index: 1000;
     }
     .order-form input[name=name] {
         width: 80%;
@@ -253,6 +254,8 @@
     .order-form input[name=zip] {
         width: 100%;
         top: 150px;
+        right: 0;
+        left: 0;
         height: 60px;
         border: 2px solid black;
         font-size: 30px;
@@ -293,6 +296,9 @@
     }
     .icon {
         padding: 20px;
+    }
+    .deals-container {
+        display: none;
     }
 }
  /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -386,6 +392,9 @@
         width: 200px;
         font-size: 40px;
         text-align: center;
+    }
+    .deals-container {
+        display: none;
     }
  }
  
