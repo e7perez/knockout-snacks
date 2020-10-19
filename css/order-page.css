@@ -230,33 +230,42 @@
     .order-form select {
         left: 360px;
         height: 80px;
+        background: lightblue;
+        border: 0px;
     }
     .order-form input[name=name] {
         width: 100%;
         margin-bottom: 10px;
         height: 80px;
         border: 0px;
+        background: lightblue;
     }
     .order-form input[name=email] {
         height: 80px;
         border: 0px;
+        background: lightblue;
     }
     .order-form input[name=city] {
         height: 80px;
         border: 0px;
+        background: lightblue;
     }
     .order-form input[name=address] {
         width: 100%;
         margin-bottom: 10px;
         height: 80px;
+        border: 0px;
+        background: lightblue;
     }
     .order-form input[name=zip] {
         height: 80px;
         border: 0px;
+        background: lightblue;
     }
     .order-form textarea {
         height: 400px;
         border: 0px;
+        background: lightblue;
     }
     .trio {
         width: 100%;
@@ -276,6 +285,7 @@
         height: 100px;
         width: 200px;
         font-size: 40px;
+        text-align: center;
     }
  }
  
