@@ -94,3 +94,46 @@
     border: 3px solid white;
     padding: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .deals-info h3 {
+        margin-top: 150px;
+        margin-left: 0px;
+        font-size: 40px;
+    }
+    .deals-info h1 {
+        margin-left: 0px;
+        font-size: 70px;
+    }
+    .deals-info p {
+        margin-left: 0px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .deals-info span {
+        display: none;
+    }
+    .deals-info a {
+        display: none;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
