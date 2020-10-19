@@ -302,6 +302,12 @@
     .deals-container {
         display: none;
     }
+    #order-page .links a {
+        font-size: 50px;
+    }
+    #order-page #close {
+        font-size: 50px;
+    }
 }
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
