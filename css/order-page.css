@@ -203,11 +203,12 @@
         width: 100vw;
     }
     .order-form {
-        width: 600px;
+        width: 900px;
         margin-left: auto;
         margin-right: auto;
         right: 0;
         left: 0;
+        padding-top: 100px;
     }
     .order-wrapper {
         background: url(/IMG/knockout.png);
@@ -227,30 +228,35 @@
         border-radius: 0px;
     }
     .order-form select {
-        left: 400px;
-        height: 60px;
+        left: 360px;
+        height: 80px;
     }
     .order-form input[name=name] {
         width: 100%;
         margin-bottom: 10px;
-        height: 60px;
+        height: 80px;
+        border: 0px;
     }
     .order-form input[name=email] {
-        height: 60px;
+        height: 80px;
+        border: 0px;
     }
     .order-form input[name=city] {
-        height: 60px;
+        height: 80px;
+        border: 0px;
     }
     .order-form input[name=address] {
         width: 100%;
         margin-bottom: 10px;
-        height: 60px;
+        height: 80px;
     }
     .order-form input[name=zip] {
-        height: 60px;
+        height: 80px;
+        border: 0px;
     }
     .order-form textarea {
         height: 400px;
+        border: 0px;
     }
     .trio {
         width: 100%;
@@ -259,6 +265,17 @@
         flex-wrap: wrap;
         justify-content: start;
         margin-bottom: 50px;
+    }
+    .order-form input::placeholder {
+        font-size: 22px;
+    }
+    .order-form textarea::placeholder {
+        font-size: 22px;
+    }
+    .order-form button[type=submit] {
+        height: 100px;
+        width: 200px;
+        font-size: 40px;
     }
  }
  
