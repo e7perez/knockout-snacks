@@ -1,0 +1,178 @@
+.order-wrapper {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.order-wrapper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 25%;
+    z-index: 0.05;
+}
+.order-wrapper #header {
+    position: relative;
+    z-index: 1;
+    height: 90px;
+    background: black;
+    width: 100%;
+    overflow: hidden;
+}
+.order-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.icon {
+    padding: 20px 50px;
+    float: right;
+}
+.icon:hover {
+    cursor: pointer;
+}
+.order-wrapper .bar{
+    background: white;
+    color: white;
+    width: 80px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.order-wrapper .icon:hover{
+    cursor: pointer;
+}
+.form-container {
+    position: relative;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+}
+.order-form {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    padding: 250px 50px;
+}
+.order-form input[name=name]{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+}
+.order-form input[name=email]{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+}
+.order-form input[name=address]{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+}
+.trio {
+    width: 100%;
+    display: block;
+    height: 45px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.order-form input[name=city]{
+    width: 33.33%;
+    margin-bottom: 10px;
+    position: absolute;
+    height: 45px;
+}
+.order-form select{
+    width: 20%;
+    position: absolute;
+    left: 200px;
+    height: 45px;
+}
+.order-form input[name=zip]{
+    width: 33.33%;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 0;
+    height: 45px;
+}
+.order-form textarea{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0px;
+    resize: none;
+}
+.order-form select{
+    margin: 0 auto;
+    display: block;
+}
+.order-form input[type=submit]{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.order-form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.order-form textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.menu {
+    width: 50%;
+    float: right;
+    height: 400px;
+    background: black;
+    align-self: center;
+    border-radius: 100px 0 0 100px;
+    padding: 50px;
+}
+.menu p {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 3rem;
+}
+.menu p span{
+    color: greenyellow;
+}
+#order-page .links {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: absolute;
+    background: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    position: fixed;
+}
+#order-page .links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px;
+    transition: .25s ease-in-out;
+}
+#order-page .links a:hover {
+    color: #ffba27;
+}
+#order-page #close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    font-weight: 100;
+    font-size: 100px;
+    cursor: pointer;
+}

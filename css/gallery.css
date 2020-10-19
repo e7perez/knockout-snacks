@@ -1,0 +1,105 @@
+#gallery-page {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.gallery-wrapper {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    height: 3500px;
+    width: 100vw;
+}
+.gallery-wrapper::after {
+    content: "";
+    background: url(/IMG/knockout.png);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+#knockout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0.05;
+    opacity: 25%;
+}
+.gallery-wrapper #header {
+    position: relative;
+    z-index: 1;
+    height: 90px;
+    background: black;
+    width: 100%;
+    overflow: hidden;
+}
+.icon {
+    padding: 20px 50px;
+    float: right;
+}
+.icon:hover {
+    cursor: pointer;
+}
+.gallery-wrapper .bar{
+    background: white;
+    color: white;
+    width: 80px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.gallery-wrapper .icon:hover{
+    cursor: pointer;
+}
+#gallery-page .links {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: absolute;
+    background: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    position: fixed;
+}
+#gallery-page .links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 20px;
+    transition: .25s ease-in-out;
+}
+#gallery-page .links a:hover {
+    color: #ffba27;
+}
+#gallery-page #close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    font-weight: 100;
+    font-size: 100px;
+    cursor: pointer;
+}
+.gallery-container {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.row img {
+    height: 780px;
+    width: 580px;
+    margin: 5px;
+}

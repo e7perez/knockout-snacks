@@ -1,0 +1,45 @@
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: black;
+    height: 350px;
+}
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info h1 span {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-info h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-info svg {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 20%;
+}
+.footer-info  i{
+    font-size: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer-info a {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,12 @@
+@import '/CSS/reset.css';
+@import '/CSS/styles.css';
+@import '/CSS/landing-page.css';
+@import '/CSS/deals-container.css';
+@import '/CSS/about.css';
+@import '/CSS/footer.css';
+@import '/CSS/order-page.css';
+@import '/CSS/gallery.css';
+
+body {
+    overflow-x: hidden;
+}
