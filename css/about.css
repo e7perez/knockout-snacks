@@ -70,6 +70,9 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
+     .about-wrapper {
+         height: 500px;
+     }
     .info-box {
         height: 350px;
         width: 75%;
@@ -99,10 +102,9 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
         margin-top: 0px;
     }
     .right-container svg {
-        position: absolute;
-        z-index: 2;
-        width: 90%;
+        width: 100%;
         top: -100px;
+        height: 140px;
         transform: none;
     }
     .about-wrapper img {
