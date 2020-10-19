@@ -107,11 +107,12 @@
         float: right;
     }
     .container {
-        background: transparent;
+        background: url(/IMG/knockout.png);
         height: 100vh;
         width: 100vw;
         padding: 0px;
         overflow-x: hidden;
+        border-radius: 0px;
     }
     .content .info-container h1 {
         font-size: 60px;
