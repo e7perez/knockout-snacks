@@ -50,27 +50,27 @@ footer {
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
-     .footer-info {
-         display: block;
-         padding-top: 20px;
-         text-align: center;
+    .footer-info {
+         display: block !important;
+         padding-top: 20px !important;
+         text-align: center !important;
      }
     .footer-info svg{
-        display: none;
+        display: none !important;
     }
     .footer-info i {
-        font-size: 100px;
-        margin: 0px;
+        font-size: 100px !important;
+        margin: 0px !important;
     }
     .footer-info h1 {
-        font-size: 20px;
-        margin: 20px 0px;
+        font-size: 20px !important;
+        margin: 20px 0px !important;
     }
     .footer-info h1 span {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     #order-icon {
-       display: none;
+       display: none !important;
     }
  }
 
