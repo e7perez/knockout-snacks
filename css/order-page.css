@@ -222,6 +222,7 @@
         border: 2px solid black;
         z-index: 1000;
         -webkit-appearance:none;
+        background: white;
     }
     .order-form input[name=name] {
         width: 80%;
