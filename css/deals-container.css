@@ -117,20 +117,68 @@
         display: none;
     }
  }
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
-
+    .deals-info h3 {
+        margin-top: 150px;
+        margin-left: 0px;
+        font-size: 60px;
+    }
+    .deals-info h1 {
+        margin-left: 0px;
+        font-size: 120px;
+    }
+    .deals-info p {
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .deals-info span {
+        display: none;
+    }
+    .deals-info a {
+        display: none;
+    }
  }
  
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
-
+    .deals-info h3 {
+        margin-top: 150px;
+        margin-left: 0px;
+        font-size: 60px;
+    }
+    .deals-info h1 {
+        margin-left: 0px;
+        font-size: 120px;
+    }
+    .deals-info p {
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .deals-info span {
+        display: none;
+    }
+    .deals-info a {
+        display: none;
+    }
  }
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
-
+    .deals-info h3 {
+        font-size: 80px;
+    }
+    .deals-info h1 {
+        margin-left: 0px;
+        font-size: 180px;
+    }
+    .deals-info p {
+        font-size: 40px;
+    }
+    .deals-info a {
+        display: block;
+    }
  }
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */

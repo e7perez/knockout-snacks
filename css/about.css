@@ -70,7 +70,7 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
-     .about-wrapper {
+    .about-wrapper {
          height: 500px;
      }
     .info-box {
@@ -129,23 +129,227 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
     }
  }
 
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
-
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .about-wrapper {
+         height: 500px;
+     }
+    .info-box {
+        height: 350px;
+        width: 75%;
+        border-right: 74px solid #FFBA27;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .info-box h1 {
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+    .info-box p {
+        font-size: 19px;
+        font-weight: 300;
+        padding: 0px 20px;
+    }
+    .content-container {
+        width: 100%;
+        justify-content: normal;
+        display: block;
+    }
+    .right-container {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        float: right;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .right-container svg {
+        width: 100%;
+        top: -80px;
+        height: 140px;
+        transform: none;
+    }
+    .about-wrapper img {
+        display: none;
+    }
+    .info-box {
+        /* text-align: center; */
+        float: left;
+        height: 350px;
+        width: 100%;
+        border-right: none;
+        padding: 0px;
+        box-shadow: none;
+    }
+    .info-box p br{
+        display: none;
+    }
+    .right-container .circle {
+        display: none;
+    }
  }
- 
- /* Medium devices (landscape tablets, 768px and up) */
+ /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 768px) {
-
+    .about-wrapper {
+        height: 500px;
+    }
+   .info-box {
+       height: 350px;
+       width: 75%;
+       border-right: 74px solid #FFBA27;
+       padding: 10px;
+       margin-top: 0px;
+   }
+   .info-box h1 {
+       margin-top: 20px;
+       font-size: 30px;
+       padding: 0px 20px;
+   }
+   .info-box p {
+       font-size: 25px;
+       font-weight: 300;
+       padding: 0px 20px;
+   }
+   .content-container {
+       width: 100%;
+       justify-content: normal;
+       display: block;
+   }
+   .right-container {
+       position: relative;
+       justify-content: center;
+       display: flex;
+       float: right;
+       width: 100%;
+       margin-top: 0px;
+   }
+   .right-container svg {
+       width: 100%;
+       top: -80px;
+       height: 200px;
+       transform: none;
+   }
+   .about-wrapper img {
+       display: none;
+   }
+   .info-box {
+       /* text-align: center; */
+       float: left;
+       height: 350px;
+       width: 100%;
+       border-right: none;
+       padding: 0px;
+       box-shadow: none;
+   }
+   .info-box p br{
+       display: none;
+   }
+   .right-container .circle {
+       display: none;
+   }
  }
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
+    .about-wrapper {
+        height: 1200px;
+    }
+    .right-container .circle {
+        display: block;
 
- }
+    }
+    .right-container svg {
+        width: 100%;
+        top: 180px;
+        height: 380px;
+        transform: none;
+    }
+    .info-box p {
+        font-size: 40px;
+        font-weight: 300;
+        padding: 0px 20px;
+    }
+    .info-box h1 {
+        font-size: 50px;
+    }
+    .info-box {
+        /* text-align: center; */
+        float: left;
+        height: 350px;
+        width: 100%;
+        border-right: none;
+        padding: 0px;
+        box-shadow: none;
+        margin-bottom: 80px;
+    }
+    
+}
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-
+ @media only screen and (min-width: 1875px) {
+    .about-wrapper img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 25%;
+        z-index: .05;
+        display: block;
+    }
+    .content-container {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .info-box {
+        float: left;
+        height: 550px;
+        width: 50%;
+        background-color: white;
+        border-right: 100px solid #FFBA27;
+        padding-left: 50px; 
+        align-self: center;
+        margin-top: 250px;
+        -webkit-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
+    }
+    .info-box h1{
+        margin-top: 100px;
+        font-size: 50px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .info-box p{
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .right-container {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        float: right;
+        width: 50%;
+        margin-top: 200px;
+    }
+    .right-container .circle {
+        position: absolute;
+        background: url(/IMG/cosmic.jpg);
+        background-size: cover;
+        height: 700px;
+        width: 700px;
+        border-radius: 100%;
+        z-index: 1;
+        
+    }
+    .right-container svg {
+        position: absolute;
+        z-index: 2;
+        width: 90%;
+        top: 80px;
+        transform: rotate(10deg);
+        
+    }
  } 
-
