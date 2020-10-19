@@ -221,6 +221,7 @@
         border: 0px;
         border: 2px solid black;
         z-index: 1000;
+        -webkit-appearance:none;
     }
     .order-form input[name=name] {
         width: 80%;
@@ -332,6 +333,7 @@
         border-radius: 0px;
     }
     .order-form select {
+        width: 100%;
         left: 360px;
         height: 80px;
         border: 0px;
