@@ -105,7 +105,7 @@
     margin: 0 auto;
     display: block;
 }
-.order-form input[type=submit]{
+.order-form button[type=submit]{
     position: absolute;
     right: 0;
     margin-right: 50px;
