@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
             $body .= "City: ".$userCity. "\r\n";
             $body .= "State: ".$userState. "\r\n";
             $body .= "Zip: ".$userZip. "\r\n";
-            $body .= "Order: ".$userName. "\r\n";
+            $body .= "Order: ".$userOrder. "\r\n";
 
             $headers = "From: ".$userName;
             mail($to, $messageSubject, $body, $headers);
