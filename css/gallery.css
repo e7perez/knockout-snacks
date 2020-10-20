@@ -13,7 +13,7 @@ body {
 }
 .gallery-wrapper::after {
     content: "";
-    background: url(img/knockout.png);
+    background: url(../img/knockout.png);
     opacity: 0.5;
     top: 0;
     left: 0;
