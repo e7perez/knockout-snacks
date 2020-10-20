@@ -5,6 +5,7 @@
 @import 'footer.css';
 @import 'order-page.css';
 @import 'gallery.css';
+@import 'thanks.css';
 
 body {
     overflow-x: hidden;

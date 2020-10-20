@@ -1,0 +1,74 @@
+#thanks-page {
+    height: 100vh;
+    width: 100vw;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#thanks-page::after {
+    content: "";
+    background: url(../img/knockout.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+.thanks-wrapper{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+.thanks-wrapper h1{
+    margin: auto;
+    position: absolute;
+    top: 40%; left: 0; bottom: 0; right: 0;
+    font-size: 100px;
+    font-weight: 900;
+    z-index: 2;
+}
+
+/*
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .thanks-wrapper h1 {
+        font-size: 30px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .thanks-wrapper h1 {
+        font-size: 30px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .thanks-wrapper h1 {
+        font-size: 70px;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .thanks-wrapper h1 {
+        font-size: 70px;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .thanks-wrapper h1 {
+        font-size: 100px;
+    }
+ } 
+
