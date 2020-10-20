@@ -26,7 +26,6 @@ if(isset($_POST['submit'])){
 
             $headers = "From: ".$userName;
             mail($to, $messageSubject, $body, $headers);
-            header("Location: test.php");
         }
     }
 }
