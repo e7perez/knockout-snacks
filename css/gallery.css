@@ -13,7 +13,7 @@ body {
 }
 .gallery-wrapper::after {
     content: "";
-    background: url(/IMG/knockout.png);
+    background: url(img/knockout.png);
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -97,7 +97,7 @@ body {
     margin-top: 50px;
 }
 .gallery .img1 {
-    background: url(/IMG/biscoff.JPG);
+    background: url(img/biscoff.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -106,7 +106,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img2 {
-    background: url(/IMG/walnut.JPG);
+    background: url(img/walnut.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -115,7 +115,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img3 {
-    background: url(/IMG/cake.JPEG);
+    background: url(img/cake.JPEG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -124,7 +124,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img4 {
-    background: url(/IMG/captn-crunch.JPG);
+    background: url(img/captn-crunch.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -133,7 +133,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img5 {
-    background: url(/IMG/cheesecake.jpg);
+    background: url(img/cheesecake.jpg);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -142,7 +142,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img6 {
-    background: url(/IMG/cookie.JPG);
+    background: url(img/cookie.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -151,7 +151,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img7 {
-    background: url(/IMG/pebbles.JPG);
+    background: url(img/pebbles.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -160,7 +160,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img8 {
-    background: url(/IMG/cupcake.jpg);
+    background: url(img/cupcake.jpg);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -169,7 +169,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img9 {
-    background: url(/IMG/cupcake2.jpg);
+    background: url(img/cupcake2.jpg);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -178,7 +178,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img10 {
-    background: url(/IMG/fried\ oreo.JPG);
+    background: url(img/fried-oreo.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -187,7 +187,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img11 {
-    background: url(/IMG/kobe.JPG);
+    background: url(img/kobe.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
@@ -196,7 +196,7 @@ body {
     flex-grow: 1;
 }
 .gallery .img12 {
-    background: url(/IMG/sugar.JPG);
+    background: url(img/sugar.JPG);
     background-size: cover;
     background-position: center;
     width: 500px;
