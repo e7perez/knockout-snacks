@@ -24,8 +24,9 @@
                 $body .= "Zip: ".$userZip. "\r\n";
                 $body .= "Order: ".$userName. "\r\n";
 
-            
-                mail($to,$messageSubject,$body)
+                $headers = "From: ".$userName;
+                mail($to, $messageSubject, $body, $headers)
+                header("Location: webform.php");
             }
         }
     }
