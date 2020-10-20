@@ -210,4 +210,7 @@ body {
     #gallery-page .links a {
         font-size: 50px;
     }
+    #gallery-page #close {
+        font-size: 50px;
+    }
 }
