@@ -51,7 +51,7 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
 }
 .right-container .circle {
     position: absolute;
-    background: url(img/cosmic.jpg);
+    background: url(../img/cosmic.jpg);
     background-size: cover;
     height: 700px;
     width: 700px;
@@ -336,7 +336,7 @@ box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.35);
     }
     .right-container .circle {
         position: absolute;
-        background: url(img/cosmic.jpg);
+        background: url(../img/cosmic.jpg);
         background-size: cover;
         height: 700px;
         width: 700px;

@@ -194,7 +194,7 @@
         text-align: center;
     }
     .order-wrapper {
-        background: url(img/knockout.png);
+        background: url(../img/knockout.png);
         height: 1800px;
     }
     .order-wrapper img {
@@ -324,7 +324,7 @@
         text-align: center;
     }
     .order-wrapper {
-        background: url(img/knockout.png);
+        background: url(../img/knockout.png);
         height: 1800px;
     }
     .order-wrapper img {
