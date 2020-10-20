@@ -13,7 +13,7 @@
                 $submit = $_POST['submit']
                 $to = "orders@kosnacks.com";
             
-                $messageSubject =. "New message from: ".$userName.;
+                $messageSubject =. "Message from: ".$userName.;
                 $body = "";
             
                 $body .= "Name: ".$userName. "\r\n";
@@ -23,6 +23,7 @@
                 $body .= "State: ".$userState. "\r\n";
                 $body .= "Zip: ".$userZip. "\r\n";
                 $body .= "Order: ".$userName. "\r\n";
+
             
                 mail($to,$messageSubject,$body)
             }
