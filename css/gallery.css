@@ -8,7 +8,7 @@ body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     color: white;
-    height: 3500px;
+    /* height: 3500px; */
     width: 100vw;
 }
 .gallery-wrapper::after {
@@ -93,142 +93,117 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     margin-top: 50px;
 }
 .gallery .img1 {
     background: url(/IMG/biscoff.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img2 {
     background: url(/IMG/walnut.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img3 {
     background: url(/IMG/cake.JPEG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img4 {
     background: url(/IMG/captn-crunch.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img5 {
     background: url(/IMG/cheesecake.jpg);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img6 {
     background: url(/IMG/cookie.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img7 {
     background: url(/IMG/pebbles.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img8 {
     background: url(/IMG/cupcake.jpg);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img9 {
     background: url(/IMG/cupcake2.jpg);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img10 {
     background: url(/IMG/fried\ oreo.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img11 {
     background: url(/IMG/kobe.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 .gallery .img12 {
     background: url(/IMG/sugar.JPG);
     background-size: cover;
     background-position: center;
-    width: 680px;
-    height: 680px;
+    width: 500px;
+    height: 500px;
     margin: 5px;
+    flex-grow: 1;
 }
 
 
- /* Extra small devices (phones, 600px and down) */
- @media only screen and (max-width: 600px) {
-    .gallery-wrapper {
-        height: 8500px;
-    }
- }
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {
-    .gallery-wrapper {
-        height: 8500px;
-    }
- }
  
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
-
- }
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
-
- }
- 
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-    .gallery-wrapper {
-        height: 4500px;
-    }
-     
- } 
- @media only screen and (min-width: 2070px) {
-    .gallery-wrapper {
-        height: 3000px;
-    }
-     
- } 
-
