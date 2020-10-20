@@ -1,11 +1,11 @@
-@import '/CSS/reset.css';
-@import '/CSS/styles.css';
-@import '/CSS/landing-page.css';
-@import '/CSS/deals-container.css';
-@import '/CSS/about.css';
-@import '/CSS/footer.css';
-@import '/CSS/order-page.css';
-@import '/CSS/gallery.css';
+@import './reset.css';
+@import './styles.css';
+@import './landing-page.css';
+@import './deals-container.css';
+@import './about.css';
+@import './footer.css';
+@import './order-page.css';
+@import './gallery.css';
 
 body {
     overflow-x: hidden;
