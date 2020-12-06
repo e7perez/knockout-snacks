@@ -114,6 +114,15 @@
         overflow-x: hidden;
         border-radius: 0px;
     }
+    .container::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
     .content .info-container h1 {
         font-size: 60px;
     }
@@ -123,6 +132,7 @@
     .container .content {
         top: 0;
         margin-top: 80px;
+        padding: 20px;
     }
     .content .info-container a {
         font-size: 20px;
@@ -160,12 +170,20 @@
         float: right;
     }
     .container {
-        background: url(../img/knockout.png);
+        position: relative;
         height: 100vh;
-        width: 100vw;
-        padding: 0px;
-        overflow-x: hidden;
-        border-radius: 0px;
+        width: 100%;
+        background-image: url(../img/knockout.png);
+        background-size: cover;
+    }
+    .container::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(102, 51, 153, .45)
     }
     .content .info-container h1 {
         font-size: 60px;
@@ -213,12 +231,21 @@
         float: right;
     }
     .container {
-        background: url(../img/knockout.png);
+        position: relative;
         height: 100vh;
-        width: 100vw;
-        padding: 0px;
-        overflow-x: hidden;
-        border-radius: 0px;
+        width: 100%;
+        background-image: url(../img/knockout.png);
+        background-size: cover;
+    }
+
+    .container::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(102, 51, 153, .45)
     }
     .content .info-container h1 {
         font-size: 60px;
